@@ -1,3 +1,7 @@
-# Ignore CV folders
-master_cv/
-output_cv/
+# Ignore everything inside these folders
+master_cv/*
+output_cv/*
+
+# But keep the placeholder files so the folders exist
+!master_cv/.gitkeep
+!output_cv/.gitkeep
